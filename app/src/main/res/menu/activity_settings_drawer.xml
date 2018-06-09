@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/appointmentmenuicon"
+            android:title="Appointments" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/offersmenuicon"
+            android:title="Offer Settings" />
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/reviewmenuicon"
+            android:title="Customer Reviews" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settingsmenuicon"
+            android:title="Account Settings" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signoutmenuicon"
+            android:title="Sign Out" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="About"
+            android:id="@+id/nav_about" />
+
+        <item android:title="Send Feedback"
+            android:id="@+id/nav_feedback"/>
+
+        <item android:title="Rate us on the Play Store"
+            android:id="@+id/nav_playstore"/>
+
+    </group>
+</menu>

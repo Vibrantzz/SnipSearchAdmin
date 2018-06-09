@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".User"
+    tools:showIn="@layout/app_bar_user">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ucard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/userbg">
+
+                <RelativeLayout
+                    android:id="@+id/rluser"
+                    android:layout_width="match_parent"
+                    android:layout_height="179dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/userback"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/userbg" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/uimage"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/uicon"
+                        app:civ_border_color="@android:color/transparent" />
+
+                    <TextView
+                        android:id="@+id/uname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/uimage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/lato"
+                        android:text="User Name"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgpin"
+                        android:layout_width="18dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/uname"
+                        android:layout_marginRight="5dp"
+                        android:layout_toStartOf="@+id/ucity"
+                        app:srcCompat="@drawable/nvpin" />
+
+                    <TextView
+                        android:id="@+id/ucity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="false"
+                        android:layout_below="@+id/uname"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/lato"
+                        android:paddingTop="1dp"
+                        android:text="Vile Parle"
+                        android:textAllCaps="true"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/statscard"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="false"
+                android:layout_below="@+id/ucard">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:id="@+id/favelayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginBottom="3dp"
+                            app:srcCompat="@drawable/menulikes" />
+
+                        <TextView
+                            android:id="@+id/ufollowcount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:text="Favourites (3)"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/txtheadings"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/visitedlayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="3dp"
+                            app:srcCompat="@drawable/visitedbtn" />
+
+                        <TextView
+                            android:id="@+id/uvisitedcount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:paddingBottom="5dp"
+                            android:text="visited (3)"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/txtheadings"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/piclayout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginBottom="3dp"
+                            app:srcCompat="@drawable/camera" />
+
+                        <TextView
+                            android:id="@+id/uphotocount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:text="My Photos (2)"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/rcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/statscard"
+                android:fontFamily="@font/lato"
+                android:paddingBottom="10dp"
+                android:paddingLeft="17dp"
+                android:paddingTop="10dp"
+                android:text="My Reviews (5)"
+                android:textColor="@android:color/black" />
+
+            <FrameLayout
+                android:id="@+id/rframe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rcount">
+
+            </FrameLayout>
+
+
+        </RelativeLayout></ScrollView>
+
+</RelativeLayout>

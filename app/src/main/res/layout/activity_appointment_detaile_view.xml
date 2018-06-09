@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorRateText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentDetaileView">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="67dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/username"
+        android:layout_marginStart="37dp"
+        android:src="@drawable/logo2"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="64dp"
+        android:text="Charmaine Vas"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginTop="91dp"
+        android:text="VILE PARLE EAST"
+        android:textColor="@color/colorGrey"
+        android:textSize="8dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="162dp"
+        android:text="Contact"
+        android:textColor="@color/colorGrey"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/contacttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="185dp"
+        android:text="+91 9764412254"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="220dp"
+        android:text="Date"
+        android:textColor="@color/colorGrey"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/datetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="245dp"
+        android:text="28th May 2018"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/timming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="220dp"
+        android:text="Timming"
+        android:textColor="@color/colorGrey"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/timmingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="245dp"
+        android:text="28th May 2018"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/descpition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="280dp"
+        android:text="Description"
+        android:textColor="@color/colorGrey"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/descriptiontxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="305dp"
+        android:text="Description coming here !!"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="360dp"
+        android:text="Status"
+        android:textColor="@color/colorGrey"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/statustxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="385dp"
+        android:text="Status will be here !!"
+        android:textColor="@color/colorBlack"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/is_confirm"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/logo"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/confirm" />
+
+    <ImageView
+        android:id="@+id/is_cancel"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/decline" />
+
+
+</RelativeLayout>

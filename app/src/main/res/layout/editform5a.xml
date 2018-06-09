@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorRateText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vibrantzz3.snipsearchadmin.editForm5a">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRateText"
+        android:navigationIcon="@drawable/backarrow5"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Facilities Available"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/hairimg"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/parking" />
+
+    <ImageView
+        android:id="@+id/hairimgpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:layout_below="@+id/hairimg"
+        android:layout_marginLeft="30dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Parking Available"/>
+
+    <ImageView
+        android:id="@+id/acadmeyimg"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/acimg" />
+
+    <ImageView
+        android:id="@+id/acadmeyimgpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:layout_below="@+id/acadmeyimg"
+        android:layout_marginLeft="190dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Air Conditioning"/>
+
+    <ImageView
+        android:id="@+id/apptimg"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/appointmentreqimg" />
+
+    <ImageView
+        android:id="@+id/apptimgpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="300dp"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:layout_below="@+id/apptimg"
+        android:layout_marginLeft="20dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Appointment Required"/>
+
+    <ImageView
+        android:id="@+id/spaimg"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/wifiimg" />
+
+    <ImageView
+        android:id="@+id/spaimgpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="170dp"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:layout_below="@+id/spaimg"
+        android:layout_marginLeft="40dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WIFI Available"/>
+
+    <ImageView
+        android:id="@+id/beautyimg"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/kidsfriendly" />
+
+    <ImageView
+        android:id="@+id/beautyimgpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/tick" />
+
+    <TextView
+        android:layout_below="@+id/beautyimg"
+        android:layout_marginLeft="200dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kids friendly"/>
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="GetEditfillform5a"
+        android:src="@drawable/save1" />
+
+
+</RelativeLayout>
+
+

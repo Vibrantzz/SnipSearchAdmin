@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorRateText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vibrantzz3.snipsearchadmin.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRateText"
+        android:navigationIcon="@drawable/backarrow3"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="65dp"
+        android:text="Please Fill your Address Details"
+        android:textColor="@android:color/black"
+        android:textSize="19dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textColorHint="@color/colorGrey">
+
+        <EditText
+            android:id="@+id/input_country"
+            android:layout_width="283dp"
+            android:text="India"
+            android:layout_height="wrap_content"
+            android:hint="COUNTRY/ REGION"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorGrey" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColorHint="@color/colorGrey">
+
+        <EditText
+            android:id="@+id/input_pincode"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:hint="PIN CODE"
+            android:text="400085"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorGrey" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:textColorHint="@color/colorGrey">
+
+        <EditText
+            android:id="@+id/input_address"
+            android:layout_width="283dp"
+            android:layout_height="105dp"
+            android:hint="STREET ADDRESS"
+            android:text="22, mota nagar, business square"
+            android:inputType="textLongMessage"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorGrey" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:textColorHint="@color/colorGrey">
+
+        <EditText
+            android:id="@+id/input_city"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:hint="INPUT CITY"
+            android:inputType="text"
+            android:text="Andheri"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorGrey" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textColorHint="@color/colorGrey">
+
+        <EditText
+            android:id="@+id/input_state"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:hint="STATE"
+            android:text="Maharashtra"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorGrey" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="GetEditfillform2"
+        android:src="@drawable/save1" />
+
+
+
+</RelativeLayout>
+
+

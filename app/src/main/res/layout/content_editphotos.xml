@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditProfile"
+    tools:showIn="@layout/app_bar_editprofile">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame1"
+        android:onClick="GoToBusinessProfile"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/txtphotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imgphotos"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/lato"
+            android:text="Business Profile"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/tophotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imgphotos"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/rel1"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:onClick="GoToAddress"
+        android:layout_alignTop="@+id/frame2"
+        >
+
+
+
+        <TextView
+            android:id="@+id/txtstylists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/imgstylists"
+            android:fontFamily="@font/lato"
+            android:text="Address"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/tostylists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignTop="@+id/imgstylists"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel2"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToDropLocation"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frame3"
+        >
+
+
+
+        <TextView
+            android:id="@+id/txteditprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"
+            android:text="Drop Location"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/toservices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imgservices"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel3"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToGender"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frame4"
+        >
+
+
+        <TextView
+            android:id="@+id/txthours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"
+            android:text="Gender"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/toinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imginfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel4"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToBusinessCategories"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frame5"
+        >
+
+
+        <TextView
+            android:id="@+id/textbusinesscat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"
+            android:text="Business Categories"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/tocat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imginfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel5"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToService"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frame6"
+        >
+
+
+        <TextView
+            android:id="@+id/textservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"
+            android:text="Service"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/toserv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imginfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel6"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GoToFacilites"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frame7"
+        >
+
+
+        <TextView
+            android:id="@+id/textfacilites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"
+            android:text="Facilites"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/tofac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imginfo"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18dp"
+            app:srcCompat="@drawable/toicon" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel7"
+        android:layout_marginTop="18dp"
+        android:background="@color/framecolor">
+
+    </FrameLayout>
+
+</RelativeLayout>

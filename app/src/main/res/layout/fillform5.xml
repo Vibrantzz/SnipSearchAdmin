@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorRateText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vibrantzz3.snipsearchadmin.fillForm5">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRateText"
+        android:navigationIcon="@drawable/backarrow5"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="65dp"
+        android:text="Select your categories.(select multiple)"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/bridal"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/bridalpackagesimg" />
+
+    <ImageView
+        android:id="@+id/bridalpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/bridal"
+        android:layout_marginLeft="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Bridal/ Groom"/>
+
+    <ImageView
+        android:id="@+id/haircut"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mensgroomingimg" />
+
+    <ImageView
+        android:id="@+id/haircutpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/bridal"
+        android:layout_marginLeft="130dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Mens Grooming"/>
+
+    <ImageView
+        android:id="@+id/predicure"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/nailartimg" />
+
+    <ImageView
+        android:id="@+id/predicurepress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/bridal"
+        android:layout_marginLeft="265dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Nail Art"/>
+
+    <ImageView
+        android:id="@+id/manicure"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/sareeimg" />
+
+    <ImageView
+        android:id="@+id/manicurepress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:visibility="invisible"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/manicure"
+        android:layout_marginLeft="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Saree Draping"/>
+
+    <ImageView
+        android:id="@+id/facial"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/homeserviceimg" />
+
+    <ImageView
+        android:id="@+id/facialpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:visibility="invisible"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/facial"
+        android:layout_marginLeft="140dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Home Service"/>
+
+    <ImageView
+        android:id="@+id/footspa"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/makeupimg" />
+
+    <ImageView
+        android:id="@+id/footspapress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:visibility="invisible"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/footspa"
+        android:layout_marginLeft="260dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Make Up"/>
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/skintreatment" />
+
+    <ImageView
+        android:id="@+id/messagepress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:visibility="invisible"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/message"
+        android:layout_marginLeft="25dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Skin Treatment"/>
+
+    <ImageView
+        android:id="@+id/nailart"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/tanningimg" />
+
+    <ImageView
+        android:id="@+id/nailartpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:visibility="invisible"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/nailart"
+        android:layout_marginLeft="155dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tanning"/>
+
+    <ImageView
+        android:id="@+id/haircolor"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/ayurvedicimg" />
+
+    <ImageView
+        android:id="@+id/haircolorpress"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="280dp"
+        android:visibility="invisible"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/haircolor"
+        android:layout_marginLeft="260dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Ayurvedic"/>
+
+    <!--<ImageView
+        android:id="@+id/waxing"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/waxingpress"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:visibility="invisible"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/waxing"
+        android:layout_marginLeft="40dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Waxing"/>
+
+    <ImageView
+        android:id="@+id/threading"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/threadingpress"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/bridal"
+        android:visibility="invisible"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/threading"
+        android:layout_marginLeft="145dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Threading"/>
+
+    <ImageView
+        android:id="@+id/shave"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/shavepress"
+        android:layout_width="84dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="245dp"
+        android:visibility="invisible"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/tick2" />
+
+    <TextView
+        android:layout_below="@+id/shave"
+        android:layout_marginLeft="250dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Shave/ Trim"/>-->
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="GetUpdatefillform5"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/next" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/ff6" />
+
+
+
+</RelativeLayout>
+
+

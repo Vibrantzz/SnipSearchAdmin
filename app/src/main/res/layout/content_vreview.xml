@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorRateText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorblue"
+        android:minHeight="40dp"
+        app:navigationIcon="@drawable/backarrow3"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="Review" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/review_recycler"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="600dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
